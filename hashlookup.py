@@ -4,7 +4,7 @@ from ratelimit import limits, sleep_and_retry
 
 script_path = os.path.dirname(os.path.realpath(__file__))
 
-AV_ENGINES = ['McAfee','Microsoft','Symantec']
+AV_ENGINES = ['AV1','AV2','AV3']
 CSV_FILE=f'{script_path}/lookup.csv'
 CSV_OBJ=[]
 
